@@ -1,0 +1,71 @@
+.calendar-container {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 20px;
+  overflow-y: auto;
+  overflow: hidden;
+}
+.calendar-name {
+  margin-bottom: 10px;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.calendar-controls-left button,
+.calendar-controls-right button {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.calendar-controls-left button:hover,
+.calendar-controls-right button:hover {
+  background: #f0f0f0;
+}
+
+.calendar-controls-right {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+}
+
+.calendar-controls-left {
+  display: flex;
+  gap: 5px;
+}
+
+.calendar-controls-right .active {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.calendar-title {
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.fc .fc-col-header {
+  background-color: #f0f0f0;
+}
+
+.fc .fc-col-header-cell {
+  height: 45px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.fc .fc-col-header-cell .fc-col-header-cell-cushion {
+  font-weight: 700;
+  color: #333;
+}

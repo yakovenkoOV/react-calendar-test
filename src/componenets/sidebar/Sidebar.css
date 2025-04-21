@@ -1,0 +1,48 @@
+.sidebar {
+  width: 240px;
+  background-color: rgb(67, 66, 93);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-name {
+  text-align: left;
+  padding: 20px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(60, 59, 83);
+  letter-spacing: 3px;
+}
+
+.sidebar-name h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  padding: 18px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-nav li:hover {
+  background-color: rgb(60, 59, 84);
+  border-left: 0.6vh solid rgb(163, 160, 251);
+}
+
+.sidebar-nav li.active {
+  background-color: rgb(60, 59, 84);
+  border-left: 0.6vh solid rgb(163, 160, 251);
+}
+
+.icon {
+  color: rgb(163, 160, 251);
+}

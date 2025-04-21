@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Левая колонка фиксированной ширины */
+.layout__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Основная рабочая область под хедером */
+.layout__content {
+  flex: 1;
+  padding: 20px;
+}
